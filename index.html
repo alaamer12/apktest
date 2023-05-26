@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Table Display</title>
+  <style>
+    #myTable {
+      display: none; /* Initially hide the table */
+    }
+  </style>
+  <script>
+    function showTable() {
+      var table = document.getElementById("myTable");
+      table.style.display = "table"; // Display the table when button is clicked
+    }
+  </script>
+</head>
+<body>
+  <h1>Table Display</h1>
+  <button onclick="showTable()">Show Table</button>
+  
+  <table id="myTable">
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Column 3</th>
+      <th>Column 4</th>
+      <th>Column 5</th>
+      <th>Column 6</th>
+    </tr>
+    <tr>
+      <td>John</td>
+      <td>20</td>
+      <td>Data 1</td>
+      <td>Data 2</td>
+      <td>Data 3</td>
+      <td>Data 4</td>
+    </tr>
+    <tr>
+      <td>Jane</td>
+      <td>22</td>
+      <td>Data 5</td>
+      <td>Data 6</td>
+      <td>Data 7</td>
+      <td>Data 8</td>
+    </tr>
+    <!-- Add more rows as needed -->
+  </table>
+</body>
+</html>
